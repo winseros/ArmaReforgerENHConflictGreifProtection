@@ -1,0 +1,1 @@
+The mod introduces a number of additional policies for deleting a structure on the control point. The policies include: rank requirements, timeout after a CP capture and resource loss validation.
