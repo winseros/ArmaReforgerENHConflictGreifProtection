@@ -1,0 +1,77 @@
+GameProject {
+ ID "ArmaReforgerEnhanceConflictGreifProtection"
+ GUID "5D3A5E51BACD37B2"
+ TITLE "ENH Conflict Greif Protection"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{5D3CEA6B2695313D}" {
+      StringTableSource "{C2B92959DBB6313E}Language/localizations.st"
+      Languages {
+       LanguageDefinition "{5D3CEA6B23456A5D}" {
+        Code "cs_cz"
+        StringTableRuntime "{58D214B0A71DDC5A}Language/localizations.cs_cz.conf"
+       }
+       LanguageDefinition "{5D3CEA6B23456A07}" {
+        Code "de_de"
+        StringTableRuntime "{8DAC0E83B4BECD7A}Language/localizations.de_de.conf"
+       }
+       LanguageDefinition "{5D3CEA6B23456A3E}" {
+        Code "en_us"
+        StringTableRuntime "{D35C84C8DE4DC87B}Language/localizations.en_us.conf"
+       }
+       LanguageDefinition "{5D3CEA6B234565D4}" {
+        Code "es_es"
+        StringTableRuntime "{1610C941304FA364}Language/localizations.es_es.conf"
+       }
+       LanguageDefinition "{5D3CEA6B234565CC}" {
+        Code "fr_fr"
+        StringTableRuntime "{ADB83C76D6CC4066}Language/localizations.fr_fr.conf"
+       }
+       LanguageDefinition "{5D3CEA6B234565E0}" {
+        Code "it_it"
+        StringTableRuntime "{2DA4B3427BEEC39F}Language/localizations.it_it.conf"
+       }
+       LanguageDefinition "{5D3CEA6B23456587}" {
+        Code "ja_jp"
+        StringTableRuntime "{3DBF0ED0459FF334}Language/localizations.ja_jp.conf"
+       }
+       LanguageDefinition "{5D3CEA6B234565B2}" {
+        Code "ko_kr"
+        StringTableRuntime "{9D01267CD6B2F00B}Language/localizations.ko_kr.conf"
+       }
+       LanguageDefinition "{5D3CEA6B234565AA}" {
+        Code "pl_pl"
+        StringTableRuntime "{C1708086685D6C77}Language/localizations.pl_pl.conf"
+       }
+       LanguageDefinition "{5D3CEA6B23456545}" {
+        Code "pt_br"
+        StringTableRuntime "{14071A4A53A3A6CD}Language/localizations.pt_br.conf"
+       }
+       LanguageDefinition "{5D3CEA6B2345657D}" {
+        Code "ru_ru"
+        StringTableRuntime "{41460EE2CEDAC3BB}Language/localizations.ru_ru.conf"
+       }
+       LanguageDefinition "{5D3CEA6B234564AA}" {
+        Code "zh_cn"
+        StringTableRuntime "{11AE35299B54ADF3}Language/localizations.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}

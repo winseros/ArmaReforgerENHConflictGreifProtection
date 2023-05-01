@@ -1,0 +1,35 @@
+SCR_PlayerController : "{A1AE127F16DD352E}Prefabs/Characters/Core/DefaultPlayerControllerMP_Factions.et" {
+ ID "1A9BA6BEFA06E3B1"
+ components {
+  SCR_NotificationsComponent "{54C89090E8C413C6}" {
+   m_NotificationConfig SCR_NotificationConfig "{5AEAA026A8045A89}" {
+    m_aNotificationDisplayData {
+     M2_NotificationResourcesLoss "{5D3CD68578EF704C}" {
+      m_NotificationKey M2_DELETE_FAILED_RESOURCE_LOSS
+      m_info SCR_UINotificationInfo "{5D3CD6854B0B9A41}" {
+       Name "#M2_Notification_Deletion_Forbidden_Resource_Loss"
+       Icon "{2ABEFFC36C5EA842}UI/Textures/Notifications/Notification_Default_Failed.edds"
+       m_cNotificationColor WARNING
+      }
+     }
+     M2_NotificationRank "{5D3D3406B1037C30}" {
+      m_NotificationKey M2_DELETE_FAILED_RANK
+      m_info SCR_UINotificationInfo "{5D3D340684C2BDB7}" {
+       Name "#M2_Notification_Deletion_Forbidden_Rank"
+       Icon "{2ABEFFC36C5EA842}UI/Textures/Notifications/Notification_Default_Failed.edds"
+       m_cNotificationColor WARNING
+      }
+     }
+     M2_NotificationTime "{5D3D3406E3B8711E}" {
+      m_NotificationKey M2_DELETE_FAILED_TIME
+      m_info SCR_UINotificationInfo "{5D3D3406FC9F326C}" {
+       Name "#M2_Notification_Deletion_Forbidden_Time"
+       Icon "{2ABEFFC36C5EA842}UI/Textures/Notifications/Notification_Default_Failed.edds"
+       m_cNotificationColor WARNING
+      }
+     }
+    }
+   }
+  }
+ }
+}
