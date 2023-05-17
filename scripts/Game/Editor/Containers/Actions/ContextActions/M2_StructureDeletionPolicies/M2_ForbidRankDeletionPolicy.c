@@ -8,16 +8,16 @@ class M2_ForbidRankDeletionPolicy : M2_StructureDeletionPolicy
 			return;//don't anger on fortifications
 		
 		FactionKey playerFactionKey;
-		ECharacterRank playerRank;
+		SCR_EServicePointType playerRank;
 		if (!M2_CharacterRankHelper.GetPlayerRank(playerFactionKey, playerRank))
 			return;
 		
 		int requiredRankValue;
-		if (!M2_EditorBudgetHelper.GetBudgetValue(entity, EEditableEntityBudget.RANK_PRIVATE, requiredRankValue))
+		if (!M2_EditorBudgetHelper.GetBudgetValue(entity, EEditableEntityBudget.RANK_CORPORAL, requiredRankValue))
 		{
-			if (!M2_EditorBudgetHelper.GetBudgetValue(entity, EEditableEntityBudget.RANK_CORPORAL, requiredRankValue))
+			if (!M2_EditorBudgetHelper.GetBudgetValue(entity, EEditableEntityBudget.RANK_SERGEANT, requiredRankValue))
 			{
-				requiredRankValue = ECharacterRank.PRIVATE;
+				requiredRankValue = SCR_ECharacterRank.PRIVATE;
 			}
 		}
 		

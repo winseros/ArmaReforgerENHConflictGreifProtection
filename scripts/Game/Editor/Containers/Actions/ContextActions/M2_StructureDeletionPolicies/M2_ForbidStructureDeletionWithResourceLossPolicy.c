@@ -14,7 +14,7 @@ class M2_ForbidStructureDeletionWithResourceLossPolicy : M2_StructureDeletionPol
 		if (!M2_CampaignBaseHelper.GetBaseSupplies(base, baseSupplies, baseOwnCapacity, baseMaxCapacity))
 			return;
 		
-		if (comp.GetType() == ECampaignServicePointType.SUPPLY_DEPOT)
+		if (comp.GetType() == SCR_EServicePointType.SUPPLY_DEPOT)
 			baseMaxCapacity = baseOwnCapacity;
 		
 		int refundValue;

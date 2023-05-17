@@ -1,6 +1,6 @@
 class M2_CharacterRankHelper
 {
-	static bool GetPlayerRank(out FactionKey factionKey, out ECharacterRank rank) 
+	static bool GetPlayerRank(out FactionKey factionKey, out SCR_ECharacterRank rank) 
 	{
 		if (RplSession.Mode() == RplMode.Dedicated)
 			return false;

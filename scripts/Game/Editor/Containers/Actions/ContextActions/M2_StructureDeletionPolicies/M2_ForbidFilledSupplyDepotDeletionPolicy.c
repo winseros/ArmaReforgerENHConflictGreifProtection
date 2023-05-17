@@ -6,7 +6,7 @@ class M2_ForbidFilledSupplyDepotDeletionPolicy : M2_StructureDeletionPolicy
 		if (!comp)
 			return;
 		
-		if (comp.GetType() != ECampaignServicePointType.SUPPLY_DEPOT)
+		if (comp.GetType() != SCR_EServicePointType.SUPPLY_DEPOT)
 			return;
 		
 		SCR_CampaignBase base = comp.GetParentBase();

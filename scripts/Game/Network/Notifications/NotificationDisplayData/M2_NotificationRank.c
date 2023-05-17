@@ -9,7 +9,7 @@ class M2_NotificationRank : SCR_NotificationDisplayData
 		SCR_FactionManager fm = SCR_FactionManager.Cast(GetGame().GetFactionManager());
 		if (fm)
 		{
-			SCR_MilitaryFaction fc = SCR_MilitaryFaction.Cast(fm.GetFactionByIndex(factionIndex));
+			SCR_Faction fc = SCR_Faction.Cast(fm.GetFactionByIndex(factionIndex));
 			if (fc)
 			{
 				string rankName = fc.GetRankName(rank);
